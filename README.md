@@ -1,6 +1,6 @@
 # deej_controller
 
-Custom controller for use with IcyRespawn's [deej](https://github.com/omriharel/deej) software. Reads four rotary encoders with edge-driven interrupts to increment/decrement volume per channel. Volume data is sent over serial to the FT230X which appears as a serial port on the host PC. 
+Custom controller for use with omriharel's [deej](https://github.com/omriharel/deej) software. Reads four rotary encoders with edge-driven interrupts to increment/decrement volume per channel. Volume data is sent over serial to the FT230X which appears as a serial port on the host PC. 
 
 Known issues:
 * FT230X and MCP1700 both output 3.3V onto the same rail. Need to separate to prevent voltage mis-match and resultant backwards current flow. 
