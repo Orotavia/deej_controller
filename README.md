@@ -6,3 +6,5 @@ Known issues:
 * FT230X and MCP1700 both output 3.3V onto the same rail. Need to separate to prevent voltage mis-match and resultant backwards current flow. 
 * 5.3x10.2 SOIC16W footprints for SN74HC595N shift registers are too wide - Need to switch to SOIC16
 * LED Bargraph footprints are too wide - Need to reduce row-to-row spacing, must likely by 2.54mm or some multiple
+
+![deej!](https://github.com/Orotavia/deej_controller/blob/main/deej_encoder_cust.png?raw=true)
